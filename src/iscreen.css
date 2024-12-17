@@ -1,0 +1,100 @@
+.iscreen{
+    width: 567px;
+    height: 438px;
+    position: relative;
+    left: 187px;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  justify-content: center;
+       
+      }
+
+.inutscreen-text{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -2%;
+    color: #050552CC;
+
+
+}
+.input-screen-form{
+    width: 567px;
+    height: 484px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 32px;
+    border-radius: 8px;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.12);
+
+}
+.c{
+    width: 503px;
+    height: 36px;
+display: flex;
+flex-direction: row;
+gap: 16px;
+/* justify-content: space-between; */
+}
+.inputscreen-input{
+    width: 317px;
+    height: 36px;
+    border-radius: 6px;
+    border: 1px solid #D9DBDD;
+    padding:5.5px 12px;
+    border: 1px solid rgba(217, 219, 221, 1);
+    color: Placeholder;
+background-color: #FFFFFF;
+outline: none;
+
+}
+.inputscreen-label{
+    font-size: 12px;
+    width: 180px;
+    height: 21px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #05055299;
+    font-family: 'Inter';
+}
+.iscreen-bn{
+    background-color:rgba(85, 78, 241, 1) ;
+ padding: 11.5px 16px;
+margin-top: 18px;
+ width: 506px;
+ height: 36px;
+
+ border-radius: 6px;
+ font-size: 14px;
+ min-width: 64px;
+ color: rgba(255, 255, 255, 1);
+ line-height: 21px;
+ font-weight: 500;
+cursor: pointer;
+ border: none;
+ font-family: 'Inter';
+}
+
+.errmsg{
+    color: red;
+    position: relative;
+    left: 160px;
+    font-size: 12px;
+    top: 14px;
+}
+.merr{
+    position: relative;
+    bottom: 100px;
+    left: 130px;
+    top: -100px;
+    color: red; 
+    top: -28px;
+    font-size: 14px;
+}

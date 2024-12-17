@@ -1,0 +1,143 @@
+
+.left-nav{ 
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+padding: 20px 4px;
+gap: 463px;
+position: absolute;
+width: 68px;
+height: 882px;
+background: #000342;
+}
+.left-nav-inner{
+
+    height: 782px;
+    width: 66px;
+    min-height: 100vh;
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-right: 22px;
+
+
+}
+
+.co{
+    width: 66px;
+    height: 46px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+align-items:center;
+}
+.nav-text{
+    color: #B2B3CA;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.1px;
+    font-family: 'Inter';
+}
+
+.himg{
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    padding: 9.6px 4.8px;
+}
+.limg{
+    width: 32px;
+    height: 32px;
+    border-radius: 4.8px;
+    padding: 9.6px 4.8px; 
+    cursor: pointer;
+}
+.logo{
+width: 28px;
+height: 31.11px;
+margin-left: 17.5px;
+margin-top: 8px;
+}
+
+.container{
+    width: 216px;
+    height: 882px;
+}
+
+.con{
+    width: 191.5px;
+    height: 129px;
+}
+p{
+    width: 171px;
+    font: inter;
+    font-weight: 500;
+    font-size: 20px;
+line-height: 24.2px;
+}
+.limg:hover{
+    background-color: #FFFFFF33;
+}
+.mid-nav{
+margin-left: 20px;
+    width: 216px;
+    height: 882px;
+    border-right: 0.5px solid rgba(5, 5, 82, 0.1);
+    background-color: #FAFAFA;
+    padding: 24px 12.5px 24px 12px;
+    display: flex;
+    color: #0505521A;
+    flex-direction: column;
+    gap: 2px;
+
+align-items: center;
+margin-left: 70px;
+
+}
+.mid-nav-title{
+
+   
+    font-family: 'Inter';
+    padding-bottom: 22px;
+    font-size: 20px;
+    line-height: 24.2px;
+    font-weight: 500;
+    color: #050552;
+}
+.nav-bn{
+    font-family: 'Inter';
+    width: 191.5px;
+    height: 46px;
+    border: 1px solid rgba(5, 5, 82, 0.08);
+    padding: 12.5px;
+    font-size: 13px;
+    line-height: 15.73px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+button>img{
+    width: 20px;
+    height: 20px;
+}
+.mid-inner-nav{
+    width: 191.5px;
+    height: 129px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bn:hover{
+    border: 1px;
+    background-color: #554EF11A;
+    color: #544cf0;
+}
